@@ -1,0 +1,19 @@
+{
+  "name": "ca-authoring-get-image-size-from-csv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "bulk": "node index.js bulk",
+    "one": "node index.js one"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bytes": "^3.0.0",
+    "chalk": "^2.4.1",
+    "csvdata": "^1.7.0",
+    "open": "0.0.5",
+    "request": "^2.87.0"
+  }
+}
